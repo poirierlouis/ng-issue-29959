@@ -1,0 +1,72 @@
+header {
+  margin-top: 24px;
+
+  text-align: center;
+}
+
+p {
+  width: 33%;
+  margin: 24px auto auto;
+
+  text-align: justify;
+}
+
+.btn {
+  padding: 2px 8px;
+
+  border: 1px solid grey;
+  border-radius: 4px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  gap: 48px;
+}
+
+mat-tree {
+  width: 25%;
+}
+
+textarea {
+  width: 33%;
+  min-height: 348px;
+  padding: 8px;
+
+  color: #ffb453;
+  font-family: Consolas, sans-serif;
+  background-color: #fff3;
+  border: none;
+}
+
+.mat-tree-node {
+  justify-content: space-between;
+}
+
+.mat-tree-node:hover {
+  cursor: pointer !important;
+}
+
+.mat-tree-node mat-icon {
+  margin-right: 12px;
+}
+
+.mat-tree-node mat-icon.folder {
+  margin-right: 12px;
+
+  color: #ffa700;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin: 0 12px;
+}
+
+.content div {
+  overflow: hidden;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
